@@ -163,13 +163,14 @@ export const ToggleField = ({ input, label, defaultChecked, width }: FieldProps)
   />
 );
 
-export const Toggle = ({ input, label, defaultChecked }: FieldProps) => (
+export const Toggle = ({ input, label, defaultChecked, ...custom }: FieldProps) => (
   <RadioComponent
     toggle
     label={label}
     checked={!!input.value}
     defaultChecked={defaultChecked}
     onClick={(event, data) => input.onChange(data.checked)}
+    {...custom}
   />
 );
 
