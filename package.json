@@ -1,13 +1,14 @@
 {
-  "name": "react-semantic-redux-form",
-  "version": "1.2.6",
+  "name": "@appinfini/react-semantic-redux-form",
+  "version": "1.2.7",
   "description": "Semantic-ui-react component integration with Redux form",
   "main": "dist/index",
-  "author": "ChandraShekhar",
-  "license": "MIT",
+  "author": "Appinfini Technologies <uma@appinfini.com>",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/ckshekhar73/react-semantic-redux-form",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckshekhar73/react-semantic-redux-form.git"
+    "url": "https://github.com/appinfini/react-semantic-redux-form.git"
   },
   "keywords": [
     "semantic redux form",
